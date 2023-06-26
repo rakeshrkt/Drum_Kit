@@ -33,41 +33,37 @@ document.querySelector(".snare").addEventListener("click",function(){
     return audio.play();
 });
 
-document.addEventListener("keydown",function(event){
-    makeSound(event.key);
-});
-function makeSound(key){
-   if (key == 'w')
-   {var audio = new Audio("crash.mp3");
+document.querySelector(".crash").addEventListener("click",function(){
+    var audio = new Audio("crash.mp3");
     return audio.play();
-   };
-   if (key=='a'){
+});
+
+document.querySelector(".kick").addEventListener("click",function(){
     var audio = new Audio("kick-bass.mp3");
     return audio.play();
-   };
+});
 
-   if (key=='s') {
+document.querySelector(".tom1").addEventListener("click",function(){
     var audio = new Audio("tom-1.mp3");
     return audio.play();
-};
+});
 
-  if (key=='d'){
+document.querySelector(".tom2").addEventListener("click",function(){
     var audio = new Audio("tom-2.mp3");
     return audio.play();
-};
+});
 
-   if (key=='j'){
+document.querySelector(".tom3").addEventListener("click",function(){
     var audio = new Audio("tom-3.mp3");
     return audio.play();
-};
-    
- if(key=='k'){
+});
+
+document.querySelector(".tom4").addEventListener("click",function(){
     var audio = new Audio("tom-4.mp3");
     return audio.play();
-};
+});
 
- if(key=='l'){
+document.querySelector(".snare").addEventListener("click",function(){
     var audio = new Audio("snare.mp3");
     return audio.play();
-};
-};
+});
