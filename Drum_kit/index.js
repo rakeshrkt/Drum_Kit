@@ -33,37 +33,40 @@ document.querySelector(".snare").addEventListener("click",function(){
     return audio.play();
 });
 
-document.addEventListener("keydown",function(key){
-   if (key.key == 'w')
+document.addEventListener("keydown",function(event){
+    makeSound(event.key);
+});
+function makeSound(key){
+   if (key == 'w')
    {var audio = new Audio("crash.mp3");
     return audio.play();
    };
-   if (key.key=='a'){
+   if (key=='a'){
     var audio = new Audio("kick-bass.mp3");
     return audio.play();
    };
 
-   if (key.key=='s') {
+   if (key=='s') {
     var audio = new Audio("tom-1.mp3");
     return audio.play();
 };
 
-  if (key.key=='d'){
+  if (key=='d'){
     var audio = new Audio("tom-2.mp3");
     return audio.play();
 };
 
-   if (key.key=='j'){
+   if (key=='j'){
     var audio = new Audio("tom-3.mp3");
     return audio.play();
 };
     
- if(key.key=='k'){
+ if(key=='k'){
     var audio = new Audio("tom-4.mp3");
     return audio.play();
 };
 
- if(key.key=='l'){
+ if(key=='l'){
     var audio = new Audio("snare.mp3");
     return audio.play();
-});
+};
