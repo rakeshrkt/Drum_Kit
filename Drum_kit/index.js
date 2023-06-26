@@ -70,3 +70,4 @@ function makeSound(key){
     var audio = new Audio("snare.mp3");
     return audio.play();
 };
+};
