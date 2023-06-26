@@ -1,0 +1,67 @@
+h1{
+    padding-top: 15%;
+    text-align: center;
+    color: brown;
+}
+.sounds{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 22%;
+
+}
+.sounds button{
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-emphasis:"";
+    color: greenyellow;
+    margin-left: 5px;
+    margin-bottom: 5px; 
+}
+.crash{
+    background-image: url("crash.png");
+    background-size: 100%;
+}
+.tom1{
+    background-image: url("tom1.png");
+    background-size: 110%;
+}
+.tom2{
+    background-image: url("tom2.png");
+    background-size: 110%;
+}
+.tom3{
+    background-image: url("tom3.png");
+    background-size: 100%;
+}
+.tom4{
+    background-image: url("tom4.png");
+    background-size: 100%;
+}
+.kick{
+    background-image: url("kick.png");
+    background-size: 100%;
+}
+.snare{
+    background-image: url("snare.png");
+    background-size: 100%;
+}
+
+
+
+footer{
+    text-align: center;
+    color: blue;
+}
+
+main{
+    border-color: black;
+    background-color: aqua;
+    height: 700px;
+    border-radius: 5px;
+}
+body{
+    background-color: black;
+}
